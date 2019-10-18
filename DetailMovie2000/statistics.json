@@ -1,0 +1,32 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 2000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 23036.069,
+    "minResTime" : 15052.0,
+    "maxResTime" : 36109.0,
+    "pct1ResTime" : 30204.5,
+    "pct2ResTime" : 31108.699999999997,
+    "pct3ResTime" : 33048.98,
+    "throughput" : 55.37251861900939,
+    "receivedKBytesPerSec" : 355.48724355602315,
+    "sentKBytesPerSec" : 14.059428555607852
+  },
+  "Access Detail Movie" : {
+    "transaction" : "Access Detail Movie",
+    "sampleCount" : 2000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 23036.069,
+    "minResTime" : 15052.0,
+    "maxResTime" : 36109.0,
+    "pct1ResTime" : 30204.5,
+    "pct2ResTime" : 31108.699999999997,
+    "pct3ResTime" : 33048.98,
+    "throughput" : 55.37251861900939,
+    "receivedKBytesPerSec" : 355.48724355602315,
+    "sentKBytesPerSec" : 14.059428555607852
+  }
+}
