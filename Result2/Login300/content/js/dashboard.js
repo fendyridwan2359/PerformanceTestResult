@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 99.66666666666667, "KoPercent": 0.3333333333333333};
+    var data = {"OkPercent": 98.33333333333333, "KoPercent": 1.6666666666666667};
     var dataset = [
         {
             "label" : "KO",
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 300, 1, 0.3333333333333333, 18348.806666666656, 10160, 25670, 24692.4, 25378.05, 25641.99, 11.684973124561813, 18.426008254946638, 5.881626657805562], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Transactions\/s", "Received", "Sent"], "items": [{"data": ["Login into Web", 300, 1, 0.3333333333333333, 18348.806666666656, 10160, 25670, 24692.4, 25378.05, 25641.99, 11.684973124561813, 18.426008254946638, 5.881626657805562], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 300, 5, 1.6666666666666667, 18588.65, 5577, 25955, 25000.8, 25512.45, 25923.99, 11.55757599106214, 18.385725671302538, 5.739698407462342], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Transactions\/s", "Received", "Sent"], "items": [{"data": ["Login into Web", 300, 5, 1.6666666666666667, 18588.65, 5577, 25955, 25000.8, 25512.45, 25923.99, 11.55757599106214, 18.385725671302538, 5.739698407462342], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -215,7 +215,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: java.net.SocketException\/Non HTTP response message: Connection reset", 1, 100.0, 0.3333333333333333], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: java.net.SocketException\/Non HTTP response message: Connection reset", 5, 100.0, 1.6666666666666667], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -226,7 +226,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 300, 1, "Non HTTP response code: java.net.SocketException\/Non HTTP response message: Connection reset", 1, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["Login into Web", 300, 1, "Non HTTP response code: java.net.SocketException\/Non HTTP response message: Connection reset", 1, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 300, 5, "Non HTTP response code: java.net.SocketException\/Non HTTP response message: Connection reset", 5, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["Login into Web", 300, 5, "Non HTTP response code: java.net.SocketException\/Non HTTP response message: Connection reset", 5, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
