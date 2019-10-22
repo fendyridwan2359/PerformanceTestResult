@@ -1,0 +1,32 @@
+{
+  "Search Video" : {
+    "transaction" : "Search Video",
+    "sampleCount" : 300,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 3375.6,
+    "minResTime" : 2841.0,
+    "maxResTime" : 4368.0,
+    "pct1ResTime" : 3576.0,
+    "pct2ResTime" : 3582.0,
+    "pct3ResTime" : 3624.87,
+    "throughput" : 65.775049331287,
+    "receivedKBytesPerSec" : 513.9960397939049,
+    "sentKBytesPerSec" : 19.655434663450997
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 300,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 3375.6,
+    "minResTime" : 2841.0,
+    "maxResTime" : 4368.0,
+    "pct1ResTime" : 3576.0,
+    "pct2ResTime" : 3582.0,
+    "pct3ResTime" : 3624.87,
+    "throughput" : 65.775049331287,
+    "receivedKBytesPerSec" : 513.9960397939049,
+    "sentKBytesPerSec" : 19.655434663450997
+  }
+}

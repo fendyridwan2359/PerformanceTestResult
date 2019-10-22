@@ -1,0 +1,32 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 300,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 774.5600000000003,
+    "minResTime" : 305.0,
+    "maxResTime" : 1772.0,
+    "pct1ResTime" : 1079.8000000000002,
+    "pct2ResTime" : 1090.95,
+    "pct3ResTime" : 1392.89,
+    "throughput" : 168.25574873808188,
+    "receivedKBytesPerSec" : 1296.4006852916434,
+    "sentKBytesPerSec" : 37.13456954570948
+  },
+  "Access Live TV Page" : {
+    "transaction" : "Access Live TV Page",
+    "sampleCount" : 300,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 774.5600000000003,
+    "minResTime" : 305.0,
+    "maxResTime" : 1772.0,
+    "pct1ResTime" : 1079.8000000000002,
+    "pct2ResTime" : 1090.95,
+    "pct3ResTime" : 1392.89,
+    "throughput" : 168.25574873808188,
+    "receivedKBytesPerSec" : 1296.4006852916434,
+    "sentKBytesPerSec" : 37.13456954570948
+  }
+}
