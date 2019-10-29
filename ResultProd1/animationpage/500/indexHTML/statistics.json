@@ -1,0 +1,32 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 500,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1192.2039999999997,
+    "minResTime" : 143.0,
+    "maxResTime" : 4286.0,
+    "pct1ResTime" : 3063.9,
+    "pct2ResTime" : 3077.0,
+    "pct3ResTime" : 3266.94,
+    "throughput" : 115.1012891344383,
+    "receivedKBytesPerSec" : 886.0555687442449,
+    "sentKBytesPerSec" : 26.302443024861876
+  },
+  "Access Animation Page" : {
+    "transaction" : "Access Animation Page",
+    "sampleCount" : 500,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1192.2039999999997,
+    "minResTime" : 143.0,
+    "maxResTime" : 4286.0,
+    "pct1ResTime" : 3063.9,
+    "pct2ResTime" : 3077.0,
+    "pct3ResTime" : 3266.94,
+    "throughput" : 115.1012891344383,
+    "receivedKBytesPerSec" : 886.0555687442449,
+    "sentKBytesPerSec" : 26.302443024861876
+  }
+}

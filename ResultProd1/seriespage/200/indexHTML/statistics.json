@@ -1,0 +1,32 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 105.095,
+    "minResTime" : 10.0,
+    "maxResTime" : 266.0,
+    "pct1ResTime" : 236.9,
+    "pct2ResTime" : 254.0,
+    "pct3ResTime" : 266.0,
+    "throughput" : 281.2939521800281,
+    "receivedKBytesPerSec" : 2166.5677742616035,
+    "sentKBytesPerSec" : 63.455959915611814
+  },
+  "Access Series Page" : {
+    "transaction" : "Access Series Page",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 105.095,
+    "minResTime" : 10.0,
+    "maxResTime" : 266.0,
+    "pct1ResTime" : 236.9,
+    "pct2ResTime" : 254.0,
+    "pct3ResTime" : 266.0,
+    "throughput" : 281.2939521800281,
+    "receivedKBytesPerSec" : 2166.5677742616035,
+    "sentKBytesPerSec" : 63.455959915611814
+  }
+}
